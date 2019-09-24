@@ -14,6 +14,7 @@
 		572706492335565600CD8112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572706482335565600CD8112 /* Assets.xcassets */; };
 		5727064C2335565600CD8112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5727064A2335565600CD8112 /* LaunchScreen.storyboard */; };
 		5727065D2335603600CD8112 /* PlayerShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5727065C2335603600CD8112 /* PlayerShip.swift */; };
+		5791ECA3233AAD78006FB053 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5791ECA2233AAD78006FB053 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5727064B2335565600CD8112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5727064D2335565600CD8112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5727065C2335603600CD8112 /* PlayerShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerShip.swift; sourceTree = "<group>"; };
+		5791ECA2233AAD78006FB053 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,7 @@
 		5727063A2335565500CD8112 /* Asteroid LOFI */ = {
 			isa = PBXGroup;
 			children = (
-				5727065523355DBF00CD8112 /* Settings */,
+				5791ECA1233AAD6B006FB053 /* Settings */,
 				5727065623355DD200CD8112 /* Controllers */,
 				5727065423355DB500CD8112 /* Views */,
 				5727063B2335565500CD8112 /* AppDelegate.swift */,
@@ -78,13 +80,6 @@
 				5727065723355E0D00CD8112 /* Scenes */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		5727065523355DBF00CD8112 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Settings;
 			sourceTree = "<group>";
 		};
 		5727065623355DD200CD8112 /* Controllers */ = {
@@ -132,6 +127,14 @@
 			children = (
 			);
 			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		5791ECA1233AAD6B006FB053 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5791ECA2233AAD78006FB053 /* Settings.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +212,7 @@
 				572706422335565500CD8112 /* GameScene.swift in Sources */,
 				572706442335565500CD8112 /* GameViewController.swift in Sources */,
 				5727063C2335565500CD8112 /* AppDelegate.swift in Sources */,
+				5791ECA3233AAD78006FB053 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

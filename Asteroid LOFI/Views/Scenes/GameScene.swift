@@ -11,8 +11,18 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    /** O node responsável pelo estilingue. */
+      private lazy var nave: SKSpriteNode = {
+        let slingshot_1 = SKSpriteNode(imageNamed: "nave")
+        slingshot_1.position = Settings.Game.playerOrign
+          
+        return slingshot_1
+      }()
+      
+    
     override func didMove(to view: SKView) {
         
+        addChild(nave)
     }
     
      
